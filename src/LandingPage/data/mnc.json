@@ -1,0 +1,18 @@
+[
+    {
+        "image":"logos/google.svg",
+        "alt":"google"
+    },
+    {
+        "image": "logos/microsoft.svg",
+        "alt": "microsoft"
+    },
+    {
+        "image": "logos/netflix.svg",
+        "alt": "netflix"
+    },
+    {
+        "image": "logos/spotify.svg",
+        "alt": "spotify"
+    }
+]

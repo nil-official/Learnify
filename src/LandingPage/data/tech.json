@@ -1,0 +1,42 @@
+[
+    {
+        "image": "logos/javascript.svg",
+        "alt": "javascript"
+    },
+    {
+        "image": "logos/typescript.svg",
+        "alt": "typescript"
+    },
+    {
+        "image": "logos/nodedotjs.svg",
+        "alt": "nodedotjs"
+    },
+    {
+        "image": "logos/html5.svg",
+        "alt": "html5"
+    },
+    {
+        "image": "logos/css3.svg",
+        "alt": "css3"
+    },
+    {
+        "image": "logos/react.svg",
+        "alt": "react"
+    },
+    {
+        "image": "logos/tailwindcss.svg",
+        "alt": "tailwindcss"
+    },
+    {
+        "image": "logos/nextdotjs.svg",
+        "alt": "nextdotjs"
+    },
+    {
+        "image": "logos/springboot.svg",
+        "alt": "springboot"
+    },
+    {
+        "image": "logos/postgresql.svg",
+        "alt": "postgresql"
+    }
+]

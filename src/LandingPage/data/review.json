@@ -1,0 +1,122 @@
+[
+    {
+        "username": "johnS_94",
+        "fullname": "John Smith",
+        "avatar": "avatars/uifaces-popular-image1.jpg",
+        "review": "Learnify has helped me sharpen my JavaScript skills. The tutorials are comprehensive, and the projects give real-world experience. I highly recommend it for developers at any stage."
+    },
+    {
+        "username": "sarahC89",
+        "fullname": "Sarah Connor",
+        "avatar": "avatars/uifaces-popular-image2.jpg",
+        "review": "The React course on Learnify is one of the best I've encountered. The step-by-step approach and practical examples made it easy to understand and apply to my projects."
+    },
+    {
+        "username": "m_lee007",
+        "fullname": "Michael Lee",
+        "avatar": "avatars/uifaces-popular-image3.jpg",
+        "review": "The TypeScript course was a game changer. Learnify’s platform made learning types and interfaces straightforward, helping me write more maintainable code."
+    },
+    {
+        "username": "emily_dev88",
+        "fullname": "Emily Johnson",
+        "avatar": "avatars/uifaces-popular-image4.jpg",
+        "review": "I enrolled in the Node.js course and it has transformed how I approach backend development. The exercises and practical projects really made the difference for me."
+    },
+    {
+        "username": "chrisEv92",
+        "fullname": "Chris Evans",
+        "avatar": "avatars/uifaces-popular-image5.jpg",
+        "review": "The Tailwind CSS course on Learnify was excellent. I can now create sleek and responsive websites in no time. The practical approach really boosted my skills."
+    },
+    {
+        "username": "sophia.p98",
+        "fullname": "Sophia Patel",
+        "avatar": "avatars/uifaces-popular-image6.jpg",
+        "review": "The Spring Boot course was detailed and easy to follow. I now feel comfortable building backend systems, thanks to Learnify's comprehensive material."
+    },
+    {
+        "username": "daveMart_24",
+        "fullname": "David Martin",
+        "avatar": "avatars/uifaces-popular-image7.jpg",
+        "review": "Learnify’s PostgreSQL course is fantastic. From queries to optimization, everything is covered in detail. I can now design and manage databases efficiently."
+    },
+    {
+        "username": "rebeccaA91",
+        "fullname": "Rebecca Adams",
+        "avatar": "avatars/uifaces-popular-image8.jpg",
+        "review": "Learnify’s React course helped me understand complex concepts with ease. The combination of React and Tailwind was perfect for building modern UIs quickly."
+    },
+    {
+        "username": "jakewilson_2022",
+        "fullname": "Jake Wilson",
+        "avatar": "avatars/uifaces-popular-image9.jpg",
+        "review": "Thanks to Learnify’s TypeScript and Node.js courses, I feel much more confident in building scalable backend systems. The lessons were clear and practical."
+    },
+    {
+        "username": "db_brownie",
+        "fullname": "Daniel Brown",
+        "avatar": "avatars/uifaces-popular-image10.jpg",
+        "review": "Learnify has everything a backend developer needs. The combination of Node.js and PostgreSQL courses helped me scale my backend skills to a whole new level."
+    },
+    {
+        "username": "karenWhite19",
+        "fullname": "Karen White",
+        "avatar": "avatars/uifaces-popular-image11.jpg",
+        "review": "Learnify's web development courses, particularly React and Tailwind, are top-notch. The interactive approach helped me master UI development much faster."
+    },
+    {
+        "username": "alex_987",
+        "fullname": "Alex Harris",
+        "avatar": "avatars/uifaces-popular-image12.jpg",
+        "review": "Learnify’s Spring Boot course took me from beginner to confident developer. The hands-on exercises were incredibly valuable in learning how to build full-stack apps."
+    },
+    {
+        "username": "emma.davis89",
+        "fullname": "Emma Davis",
+        "avatar": "avatars/uifaces-popular-image13.jpg",
+        "review": "I love Learnify! The JavaScript and React courses were exactly what I needed to solidify my understanding of front-end development. The real-world projects were a bonus."
+    },
+    {
+        "username": "lucas_c9",
+        "fullname": "Lucas Clark",
+        "avatar": "avatars/uifaces-popular-image14.jpg",
+        "review": "Learnify’s courses on Node.js and PostgreSQL gave me the confidence to dive deeper into backend development. The lessons were very clear and practical."
+    },
+    {
+        "username": "zoeT_20",
+        "fullname": "Zoe Thomas",
+        "avatar": "avatars/uifaces-popular-image15.jpg",
+        "review": "I took Learnify's TypeScript course, and it was amazing! It really helped me grasp complex types and interfaces, making my code more robust and scalable."
+    },
+    {
+        "username": "noah_moo_r",
+        "fullname": "Noah Moore",
+        "avatar": "avatars/uifaces-popular-image16.jpg",
+        "review": "The combination of React and Tailwind in Learnify’s courses was brilliant! I can now create fast and responsive web apps with a modern look in no time."
+    },
+    {
+        "username": "em_davis2020",
+        "fullname": "Emily Davis",
+        "avatar": "avatars/uifaces-popular-image17.jpg",
+        "review": "Learnify’s backend courses, especially Node.js and PostgreSQL, were incredibly helpful. I feel confident building and deploying full-stack applications now."
+    },
+    {
+        "username": "liam_hunter87",
+        "fullname": "Liam Hunter",
+        "avatar": "avatars/uifaces-popular-image18.jpg",
+        "review": "Learnify offers an amazing Spring Boot course! The content was easy to follow, and the projects provided hands-on experience that greatly improved my skills."
+    },
+    {
+        "username": "chloe_b78",
+        "fullname": "Chloe Bennett",
+        "avatar": "avatars/uifaces-popular-image19.jpg",
+        "review": "The JavaScript and TypeScript courses on Learnify were excellent. The instructors provided clear explanations, and the exercises made sure I understood the concepts well."
+    },
+    {
+        "username": "ethan.wells22",
+        "fullname": "Ethan Wells",
+        "avatar": "avatars/uifaces-popular-image20.jpg",
+        "review": "Learnify’s React course helped me build dynamic and responsive applications. The hands-on approach was perfect for someone like me who learns by doing."
+    }
+]
