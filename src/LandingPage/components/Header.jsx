@@ -3,6 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <div className='w-full h-[800px]'>
+
             <div className='h-full flex flex-col justify-center items-center'>
                 <div className='flex flex-col gap-8 items-center'>
                     <div className='flex flex-col gap-2 items-center'>
@@ -24,6 +25,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }
