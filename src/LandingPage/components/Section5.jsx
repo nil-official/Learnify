@@ -15,7 +15,7 @@ const Section5 = () => {
             <div className='flex flex-col items-center justify-center gap-8 py-6 lg:flex-row'>
                 {data.map((mnc, index) => {
                     return (
-                        <div key={index} className='relative w-[90px] lg:w-[130px] cursor-pointer'>
+                        <div key={index} className='w-[90px] lg:w-[130px] cursor-pointer'>
                             <img
                                 src={mnc.image}
                                 alt={mnc.alt}
