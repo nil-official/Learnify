@@ -1,29 +1,38 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import data from '../data/review.json';
 
 const Section4 = () => {
-    const [visibleCount, setVisibleCount] = useState(6);
-    const initialVisibleCount = 6;  // Default number of cards shown
-
+    const [visibleCount, setVisibleCount] = useState(window.innerWidth < 1024 ? 4 : 6);
+    const [increment, setIncrement] = useState(window.innerWidth < 1024 ? 4 : 6);
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth < 1024) {
+                setIncrement(4);
+                setVisibleCount(4);
+            } else {
+                setIncrement(6);
+                setVisibleCount(6);
+            }
+        };
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
     const loadMore = () => {
-        setVisibleCount((prevCount) => prevCount + 6);
+        setVisibleCount((prevCount) => prevCount + increment);
     };
-
     const showLess = () => {
-        setVisibleCount(initialVisibleCount);
+        setVisibleCount(increment);
     };
-
     return (
-        <div className='w-full bg-gray-800 px-12 md:px-48 lg:px-48 2xl:px-80 flex flex-col items-center'>
-            <div>
-                <p className='text-3xl font-bold text-white p-12'>
+        <div className='w-full bg-gray-800 p-8 lg:py-12 flex flex-col items-center'>
+            <div className='pb-12'>
+                <p className='text-2xl lg:text-3xl font-bold text-center text-white'>
                     What They're Saying About Us
                 </p>
             </div>
-
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 w-[65%]'>
                 {data.slice(0, visibleCount).map((review, index) => {
                     return (
                         <div
@@ -50,22 +59,19 @@ const Section4 = () => {
                     );
                 })}
             </div>
-
-            <div className='p-12 flex items-center gap-4'>
+            <div className='pt-12 flex items-center gap-4'>
                 {visibleCount < data.length && (
                     <button
                         onClick={loadMore}
-                        className="bg-transparent border-2 border-lime-500 text-lime-500 font-semibold py-2 px-6 rounded-full"
+                        className="bg-transparent border-2 border-lime-500 text-lime-500 font-semibold py-2 px-5 rounded-full"
                     >
                         Show More
                     </button>
                 )}
-
-                {/* Show Less button appears when more than the initial number of cards are visible */}
-                {visibleCount > initialVisibleCount && (
+                {visibleCount > increment && (
                     <button
                         onClick={showLess}
-                        className="bg-transparent border-2 border-lime-500 text-lime-500 font-semibold py-2 px-6 rounded-full"
+                        className="bg-transparent border-2 border-lime-500 text-lime-500 font-semibold py-2 px-5 rounded-full"
                     >
                         Show Less
                     </button>
