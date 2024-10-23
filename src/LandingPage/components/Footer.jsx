@@ -2,11 +2,10 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='w-full py-8 lg:py-12 bg-black text-white flex flex-col gap-5 items-center justify-center'>
+        <div className='w-full py-8 lg:py-12 bg-black text-white flex flex-col gap-5 items-center'>
             <div className='w-[90%] md:w-[85%] lg:w-[80%] xl:w-[70%] 2xl:w-[60%] flex flex-col items-center gap-4'>
-                <div className='w-full flex flex-col lg:flex-row justify-between gap-6 lg:gap-0'>
-                    {/* Left */}
-                    <div className='flex flex-col justify-end gap-4'>
+                <div className='w-full flex flex-col lg:flex-row lg:justify-between gap-6 lg:gap-0'>
+                    <div className='flex flex-col items-center text-center lg:items-start lg:justify-end gap-4'>
                         <div className='w-[130px] 2xl:w-[160px] cursor-pointer'>
                             <img src="images/logo.png" alt="Learnify" />
                         </div>
@@ -24,8 +23,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    {/* Right */}
-                    <div className='flex flex-col gap-4'>
+                    <div className='flex flex-col gap-4 items-center lg:items-end'>
                         <div className='flex gap-4 lg:justify-end'>
                             <img src="logos/linkedin.svg" alt="linkedin" className='w-5 2xl:w-7 cursor-pointer' />
                             <img src="logos/x.svg" alt="x" className='w-5 2xl:w-7 cursor-pointer' />
@@ -46,7 +44,7 @@ const Footer = () => {
                 <div className='w-[100%]'>
                     <hr className='border-0 h-[2px] bg-[#636363]' />
                 </div>
-                <div className='w-full text-sm lg:flex lg:justify-between'>
+                <div className='w-full text-sm flex flex-col items-center lg:flex-row lg:justify-between'>
                     <div className='flex'>
                         <p className='text-[#636363] hover:text-gray-300 cursor-pointer'>
                             Learnify is proudly made in India, IN

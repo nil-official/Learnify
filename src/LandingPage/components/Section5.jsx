@@ -26,7 +26,7 @@ const Section5 = () => {
             </div>
             <div className='pt-4 w-full flex items-center justify-center'>
                 <button
-                    className='text-black text-sm lg:text-[16px] font-bold px-5 py-2 rounded-full bg-lime-500 w-40'
+                    className='w-full lg:w-40 text-black text-sm lg:text-[16px] font-bold px-5 py-2 rounded-full bg-lime-500'
                 >
                     Get Full Access
                 </button>
