@@ -6,7 +6,6 @@ const Footer = () => {
 
             <div className='w-[60%] flex flex-col items-center gap-4'>
                 <div className='w-full flex justify-between'>
-
                     {/* Left */}
                     <div className='flex flex-col justify-end gap-4'>
                         <div className='w-[160px] cursor-pointer'>
@@ -66,6 +65,7 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
+
             </div>
 
         </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const FirstSection = () => {
+const Header = () => {
     return (
-        <div className='w-full h-[650px]'>
+        <div className='w-full h-[800px]'>
             <div className='h-full flex flex-col justify-center items-center'>
                 <div className='flex flex-col gap-8 items-center'>
                     <div className='flex flex-col gap-2 items-center'>
@@ -28,4 +28,4 @@ const FirstSection = () => {
     )
 }
 
-export default FirstSection
+export default Header
