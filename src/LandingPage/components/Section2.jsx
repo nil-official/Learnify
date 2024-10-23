@@ -55,7 +55,7 @@ const Section2 = () => {
     }, [hasAnimated]);
 
     return (
-        <div className='w-full h-[550px] flex flex-col justify-center items-center text-white' style={{ backgroundColor: '#333333' }}>
+        <div className='w-full p-8 lg:py-12 flex flex-col justify-center items-center text-white' style={{ backgroundColor: '#333333' }}>
             <div className='flex items-center justify-center gap-16 mb-12'>
                 {/* Left */}
                 <div className='w-[430px] flex flex-col gap-6'>
