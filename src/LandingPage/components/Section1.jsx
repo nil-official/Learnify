@@ -3,7 +3,7 @@ import data from '../data/tech.json'
 
 const Section1 = () => {
   return (
-    <div style={{ background: '#1d1d1d' }} className='w-full h-[400px] text-white'>
+    <div className='w-full p-8 lg:py-12 text-white bg-[#1d1d1d]'>
       <div className='flex flex-col items-center justify-center gap-12 p-12'>
 
         <div className='flex flex-col gap-4 items-center'>
