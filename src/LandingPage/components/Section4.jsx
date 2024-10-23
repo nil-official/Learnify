@@ -4,26 +4,13 @@ import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import data from '../data/review.json';
 
 const Section4 = () => {
-    const [visibleCount, setVisibleCount] = useState(window.innerWidth < 1024 ? 4 : 6);
-    const [increment, setIncrement] = useState(window.innerWidth < 1024 ? 4 : 6);
-    useEffect(() => {
-        const handleResize = () => {
-            if (window.innerWidth < 1024) {
-                setIncrement(4);
-                setVisibleCount(4);
-            } else {
-                setIncrement(6);
-                setVisibleCount(6);
-            }
-        };
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    const [visibleCount, setVisibleCount] = useState(6);
+    const initialVisibleCount = 6;
     const loadMore = () => {
-        setVisibleCount((prevCount) => prevCount + increment);
+        setVisibleCount((prevCount) => prevCount + 6);
     };
     const showLess = () => {
-        setVisibleCount(increment);
+        setVisibleCount(initialVisibleCount);
     };
     return (
         <div className='w-full bg-gray-800 p-8 lg:py-12 flex flex-col items-center'>
@@ -32,7 +19,7 @@ const Section4 = () => {
                     What They're Saying About Us
                 </p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 w-[65%]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 w-[80%] sm:w-[65%]'>
                 {data.slice(0, visibleCount).map((review, index) => {
                     return (
                         <div
@@ -68,7 +55,7 @@ const Section4 = () => {
                         Show More
                     </button>
                 )}
-                {visibleCount > increment && (
+                {visibleCount > initialVisibleCount && (
                     <button
                         onClick={showLess}
                         className="bg-transparent border-2 border-lime-500 text-lime-500 font-semibold py-2 px-5 rounded-full"
