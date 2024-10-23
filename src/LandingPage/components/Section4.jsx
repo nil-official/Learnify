@@ -14,7 +14,7 @@ const Section4 = () => {
     };
     return (
         <div className='w-full bg-gray-800 p-8 lg:py-12 flex flex-col items-center'>
-            <div className='pb-12'>
+            <div className='pb-8 lg:pb-12'>
                 <p className='text-2xl lg:text-3xl font-bold text-center text-white'>
                     What They're Saying About Us
                 </p>
@@ -46,7 +46,7 @@ const Section4 = () => {
                     );
                 })}
             </div>
-            <div className='pt-12 flex items-center gap-4'>
+            <div className='pt-8 lg:pt-12 flex items-center gap-4'>
                 {visibleCount < data.length && (
                     <button
                         onClick={loadMore}
