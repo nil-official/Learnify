@@ -81,7 +81,7 @@ const Navbar = () => {
                             <div className='cursor-pointer text-[16px] text-[#939393] hover:text-white'>Login</div>
                         </div>
                         <div className='lg:hidden' onClick={toggleMobileMenu}>
-                            <Bars3Icon className='text-white w-10' />
+                            <Bars3Icon className='text-white w-9' />
                         </div>
                     </div>
                 </div>
@@ -92,14 +92,14 @@ const Navbar = () => {
                 className={`fixed top-0 right-0 w-[70%] h-full bg-gray-800 text-white transition-transform duration-300 ease-in-out transform ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} lg:hidden z-50`}
             >
                 <div className='flex flex-col px-4 py-12 items-center justify-between h-full'>
-                    <ul className='flex flex-col gap-10 items-center'>
+                    <ul className='flex flex-col gap-10 items-center text-sm'>
                         <li className='cursor-pointer' onClick={toggleMobileMenu}>Features</li>
                         <li className='cursor-pointer' onClick={toggleMobileMenu}>Courses</li>
                         <li className='cursor-pointer' onClick={toggleMobileMenu}>Learn</li>
                         <li className='cursor-pointer' onClick={toggleMobileMenu}>Blog</li>
                         <li className='cursor-pointer' onClick={toggleMobileMenu}>Pricing</li>
                     </ul>
-                    <div className='mt-6 w-full flex flex-col items-center gap-4'>
+                    <div className='mt-6 w-full flex flex-col items-center gap-4 text-sm'>
                         <button
                             className='text-black rounded-full bg-[#8dc21f] w-[80%] font-bold px-5 py-2'
                             onClick={toggleMobileMenu}
