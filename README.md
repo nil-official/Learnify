@@ -1,6 +1,6 @@
 # Responsive Landing Page
 
-![Landing Page Demo](./public/demo.mp4)
+![Landing Page Demo](./public/screenshot.png)
 
 ## Overview
 
